@@ -1,0 +1,42 @@
+﻿<Window x:Class="city2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:city2"
+        xmlns:col="clr-namespace:System.Collections;assembly=mscorlib"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Menu Height="25" VerticalAlignment="Top">
+            <MenuItem Header="Загрузить" Click="MenuItem_Click_1"/>
+            <MenuItem Header="Очистить" Click="MenuItem_Click_2"/>
+            <MenuItem x:Name="Spr" Header="Справка" Click="MenuItem_Click"/>
+
+        </Menu>
+        <DataGrid x:Name="CityGrid" AutoGenerateColumns="True" Margin="0,25,489,0" >
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="City" Binding="{ Binding Path=Title }" Width="90"/>
+                <DataGridTextColumn Header="Description" Binding="{ Binding Path=Description }" Width="*"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <ListView Margin="303,25,0,0" x:Name="MyListView">
+            <ListView.View>
+                <GridView>
+                    <GridView.Columns>
+                        <GridViewColumn DisplayMemberBinding="{Binding Path=Name}" Width="160">Город</GridViewColumn>
+                        <GridViewColumn DisplayMemberBinding="{Binding Path=Population}" Width="160">Население</GridViewColumn>
+                        <GridViewColumn DisplayMemberBinding="{Binding Path=Region}" Width="160">Номер региона</GridViewColumn>
+                    </GridView.Columns>
+                </GridView>
+            </ListView.View>
+            <ListView.ContextMenu>
+                <ContextMenu>
+                    <MenuItem Header="Копировать" x:Name="Copy" Click="Copy_Click"/>
+                    <MenuItem Header="Вставить" x:Name="Insert" Click="Insert_Click"/>
+                    <MenuItem Header="Удалить" x:Name="Delete" Click="Delete_Click"/>
+                </ContextMenu>
+            </ListView.ContextMenu>
+        </ListView>
+    </Grid>
+</Window>

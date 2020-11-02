@@ -1,0 +1,15 @@
+C:\Users\Павел\source\repos\city2\obj\Debug\city2.csprojAssemblyReference.cache
+C:\Users\Павел\source\repos\city2\obj\Debug\MainWindow.g.cs
+C:\Users\Павел\source\repos\city2\obj\Debug\App.g.cs
+C:\Users\Павел\source\repos\city2\obj\Debug\city2_MarkupCompile.cache
+C:\Users\Павел\source\repos\city2\obj\Debug\city2_MarkupCompile.lref
+C:\Users\Павел\source\repos\city2\bin\Debug\city2.exe.config
+C:\Users\Павел\source\repos\city2\bin\Debug\city2.exe
+C:\Users\Павел\source\repos\city2\bin\Debug\city2.pdb
+C:\Users\Павел\source\repos\city2\obj\Debug\MainWindow.baml
+C:\Users\Павел\source\repos\city2\obj\Debug\city2.g.resources
+C:\Users\Павел\source\repos\city2\obj\Debug\city2.Properties.Resources.resources
+C:\Users\Павел\source\repos\city2\obj\Debug\city2.csproj.GenerateResource.cache
+C:\Users\Павел\source\repos\city2\obj\Debug\city2.csproj.CoreCompileInputs.cache
+C:\Users\Павел\source\repos\city2\obj\Debug\city2.exe
+C:\Users\Павел\source\repos\city2\obj\Debug\city2.pdb
